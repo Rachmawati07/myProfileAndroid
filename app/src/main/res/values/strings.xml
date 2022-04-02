@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Rachmawati</string>
+    <string name="text_nama_rachmawati">Nama : Rachmawati</string>
+    <string name="text_nim_203110036">Nim : 203110036</string>
+    <string name="text_prodi_rpla">Prodi : RPLA</string>
+    <string name="text_jenjang_d3">Jenjang : D3</string>
+    <string name="text_my_profile">My Profile</string>
+    <string name="image_cartoon">TODO</string>
+    <string name="button_home">HOME</string>
+    <string name="image_grass">TODO</string>
+    <string name="image_awan">TODO</string>
+    <string name="masukkanBiayaJasa">Masukkan Biaya Jasa</string>
+    <string name="cbAmazing">Amazing (20%)</string>
+    <string name="cbGood">Good (15%)</string>
+    <string name="cbOk">Okay (10%)</string>
+    <string name="bagaimana_pelayanan_yang_diterima">Bagaimana Pelayanan yang diterima?</string>
+    <string name="apakah_tip_dibulatkan_ke_atas">Apakah tip dibulatkan ke atas</string>
+    <string name="pajak_dihitung">Pajak dihitung</string>
+    <string name="hitung_total_tip">Hitung Total Tip</string>
+    <string name="total_tip_yang_diberikan">Total Tip yang diberikan</string>
+</resources>

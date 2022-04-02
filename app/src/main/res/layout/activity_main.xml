@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Ini adalah bagian teks yang ditambahkan pada projek
+        - Mempunyai id berupa textProfile
+        - Untuk menampilkan keluaran berupa tulisan My Profile
+        - Menggunakan font berupa Sans Serif Smallcaps, dengan ukuran font 48sp, dan di bold
+        - Menggunakan warna biru tua dengan kode warna #30419F
+        - Dan dikelompokkan berdasarkan resource string agar tidak menampilkan error
+     -->
+    <TextView
+        android:id="@+id/textProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/text_my_profile"
+        android:textColor="#30419F"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageCartoon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.863" />
+
+    <!-- Ini adalah bagian teks yang ditambahkan pada projek
+          - Mempunyai id berupa textNama
+          - Untuk menampilkan keluaran berupa tulisan Nama : Rachmawati
+          - Menggunakan font berupa cursive, dengan ukuran font 24sp, dan di bold
+          - Menggunakan warna merah maroon dengan kode warna #A50138
+          - Dan dikelompokkan berdasarkan resource string agar tidak menampilkan error
+    -->
+    <TextView
+        android:id="@+id/textNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="@string/text_nama_rachmawati"
+        android:textColor="#A50138"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.563" />
+
+    <!-- Ini adalah bagian teks yang ditambahkan pada projek
+         - Mempunyai id berupa textNim
+         - Untuk menampilkan keluaran berupa tulisan Nim : 203110036
+         - Menggunakan font berupa cursive, dengan ukuran font 24sp, dan di bold
+         - Menggunakan warna merah maroon dengan kode warna #A50138
+         - Dan dikelompokkan berdasarkan resource string agar tidak menampilkan error
+    -->
+    <TextView
+        android:id="@+id/textNim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="@string/text_nim_203110036"
+        android:textColor="#A50138"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textProdi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textNama"
+        app:layout_constraintVertical_bias="0.473" />
+
+    <!-- Ini adalah bagian teks yang ditambahkan pada projek
+       - Mempunyai id berupa textJenjang
+       - Untuk menampilkan keluaran teks untuk bagian Jenjang : D3
+       - Menggunakan font berupa cursive, dengan ukuran font 24sp, dan di bold
+       - Menggunakan warna merah maroon dengan kode warna #A50138
+       - Dan dikelompokkan berdasarkan resource string agar tidak menampilkan error
+     -->
+    <TextView
+        android:id="@+id/textJenjang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="@string/text_jenjang_d3"
+        android:textColor="#A50138"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textNama"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <!-- Ini adalah bagian teks yang ditambahkan pada projek
+       - Mempunyai id berupa textProdi
+       - Untuk menampilkan keluaran berupa tulisan Prodi : RPLA
+       - Menggunakan font berupa cursive, dengan ukuran font 24sp, dan di bold
+       - Menggunakan warna merah maroon dengan kode warna #A50138
+       - Dan dikelompokkan berdasarkan resource string agar tidak menampilkan error
+    -->
+    <TextView
+        android:id="@+id/textProdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="@string/text_prodi_rpla"
+        android:textColor="#A50138"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textJenjang"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.376"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textNama"
+        app:layout_constraintVertical_bias="0.854" />
+
+    <!-- Ini adalah bagian untuk menampilkan gambar
+        - Mempunyai id berupa imageCartoon
+        - Gambar yang ditampilkan berupa gambar kartun
+        - Gambar berasal dari drawble
+        - Tinggi gambar ialah 179dp dengan lebar 173dp
+        - Menggunakan contentDescription yang dikelompokkan pada string
+     -->
+    <ImageView
+        android:id="@+id/imageCartoon"
+        android:layout_width="173dp"
+        android:layout_height="179dp"
+        android:contentDescription="@string/image_cartoon"
+        app:layout_constraintBottom_toBottomOf="@+id/textJenjang"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.464"
+        app:srcCompat="@drawable/cartoon"
+        tools:ignore="ImageContrastCheck" />
+
+    <!-- Ini adalah bagian untuk menampilkan tombol
+        - Mempunyai id berupa buttonHome
+        - Tombol ini bertuliskan HOME
+        - Dan dikelompokkan berdasarkan resource string agar tidak menampilkan error
+        - Dan menggunakan warna ungu
+     -->
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textJenjang"
+        app:layout_constraintVertical_bias="0.278" />
+
+    <!-- Ini adalah bagian untuk menampilkan gambar
+      - Mempunyai id berupa imageGrass
+      - Gambar yang ditampilkan berupa gambar grass
+      - Gambar berasal dari drawble
+      - Menggunakan contentDescription yang dikelompokkan pada string
+    -->
+    <ImageView
+        android:id="@+id/imageGrass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/image_grass"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textJenjang"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/grass" />
+
+    <!-- Ini adalah bagian untuk menampilkan gambar
+      - Mempunyai id berupa imageGrass
+      - Gambar yang ditampilkan berupa gambar awan
+      - Gambar berasal dari drawble
+      - Tinggi gambar ialah 73dp dengan lebar 152dp
+      - Menggunakan contentDescription yang dikelompokkan pada string
+    -->
+    <ImageView
+        android:id="@+id/imageAwan"
+        android:layout_width="152dp"
+        android:layout_height="73dp"
+        android:contentDescription="@string/image_awan"
+        app:layout_constraintBottom_toTopOf="@+id/imageCartoon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/awan"
+        tools:ignore="ImageContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
