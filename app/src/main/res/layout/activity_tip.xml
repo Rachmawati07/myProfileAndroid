@@ -4,7 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
+    <!-- Ini adalah bagian untuk menampilkan gambar
+             - Mempunyai id berupa imageTulip
+             - Gambar yang ditampilkan berupa gambar bunga Tulip
+             - Gambar berasal dari drawble
+             - Tinggi gambar ialah 133dp dengan lebar 263dp
+             - Menggunakan contentDescription yang dikelompokkan pada string
+        -->
     <EditText
         android:id="@+id/editBiayaJasa"
         android:layout_width="wrap_content"
