@@ -54,7 +54,7 @@
     <!-- Ini adalah bagian teks yang ditambahkan pada projek
          - Mempunyai id berupa textNim
          - Untuk menampilkan keluaran berupa tulisan Nim : 203110036
-         - Menggunakan font berupa cursive, dengan ukuran font 24sp, dan di bold
+         - Menggunakan font berupa cursive, dengan ukuran font 24sp, dan dibold
          - Menggunakan warna merah maroon dengan kode warna #A50138
          - Dan dikelompokkan berdasarkan resource string agar tidak menampilkan error
     -->
