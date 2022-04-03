@@ -9,7 +9,7 @@
     <!-- Ini adalah bagian teks yang ditambahkan pada projek
         - Mempunyai id berupa textProfile
         - Untuk menampilkan keluaran berupa tulisan My Profile
-        - Menggunakan font berupa Sans Serif Smallcaps, dengan ukuran font 48sp, dan di bold
+        - Menggunakan font berupa Sans Serif Smallcaps, dengan ukuran font 48sp, dan dibold
         - Menggunakan warna biru tua dengan kode warna #30419F
         - Dan dikelompokkan berdasarkan resource string agar tidak menampilkan error
      -->
