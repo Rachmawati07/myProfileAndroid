@@ -77,7 +77,7 @@
     <!-- Ini adalah bagian teks yang ditambahkan pada projek
        - Mempunyai id berupa textJenjang
        - Untuk menampilkan keluaran teks untuk bagian Jenjang : D3
-       - Menggunakan font berupa cursive, dengan ukuran font 24sp, dan di bold
+       - Menggunakan font berupa cursive, dengan ukuran font 24sp, dan dibold
        - Menggunakan warna merah maroon dengan kode warna #A50138
        - Dan dikelompokkan berdasarkan resource string agar tidak menampilkan error
      -->
